@@ -12,6 +12,7 @@ function App() {
     .then((res) => res.json())
     .then((data) =>{
       setCity(data)
+      console.log(data)
       setIsLoading(true)}  
   )}
 
